@@ -1,11 +1,11 @@
 // YOUR CODE HERE
 // btn 1
-const block_1 = document.querySelector("#output1");
+const text1 = document.querySelector("#output1");
 
 const btn1 = document.querySelector("#btn1");
 
 btn1.addEventListener("click",() =>{
-    block_1.classList.toggle("output_click")
+    text1.style.color = "red";
 });
 
 //btn 2
